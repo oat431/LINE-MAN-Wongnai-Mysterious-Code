@@ -9,23 +9,20 @@ Solve the challenge and Save your spot for a fast track interview with LINE MAN 
 1. From the secret code `aWFuZ25vVzpOQU06RU5JTDp0YTpzdTpuaW9K` 
 you will need to decode by the base64 decoding method
 
-input: `aWFuZ25vVzpOQU06RU5JTDp0YTpzdTpuaW9K`
-
-after decoding: `iangnoW:NAM:ENIL:ta:su:nioJ`
+- input: `aWFuZ25vVzpOQU06RU5JTDp0YTpzdTpuaW9K`
+- after decoding: `iangnoW:NAM:ENIL:ta:su:nioJ`
 
 2. after we saw the output, we noticed that it is an English string with a colon separate
 word, and if we look carefully, it is reversed, so let's reverse it
 
-input: `iangnoW:NAM:ENIL:ta:su:nioJ`
-
-after reversing: `Join:us:at:LINE:MAN:Wongnai`
+- input: `iangnoW:NAM:ENIL:ta:su:nioJ`
+- after reversing: `Join:us:at:LINE:MAN:Wongnai`
 
 3. now it is readable but to get the real message, we need to get rid of the colon,
 so we need to remove the colon
 
-input: `Join:us:at:LINE:MAN:Wongnai`
-
-after removing colon: `Join us at LINE MAN Wongnai`
+- input: `Join:us:at:LINE:MAN:Wongnai`
+- after removing colon: `Join us at LINE MAN Wongnai`
 
 Answer: `Join us at LINE MAN Wongnai`
 
